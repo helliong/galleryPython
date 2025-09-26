@@ -21,7 +21,7 @@ def scan_directory(path):
 
 
 if __name__ == "__main__":
-    root_path = r"D:\html work\oopGallery\assets\img" 
+    root_path = r"D:\html work\galleryPython\assets\img" 
     result = scan_directory(root_path)
 
     with open("tree.json", "w", encoding="utf-8") as f:
