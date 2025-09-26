@@ -1,4 +1,3 @@
-// ...existing code...
 # GalleryPython
 
 Интерактивная галерея изображений с использованием HTML, CSS, JavaScript и Python.
