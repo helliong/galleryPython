@@ -26,9 +26,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    animation: pulse 1.5s infinite;
+    animation: pulseAndRotate 1.5s infinite ease-in-out;
     transition: opacity 1s ease;
-
 }
 
 .hint img {
@@ -37,17 +36,17 @@
 
 /* Пульс для click here */
 
-@keyframes pulse {
+@keyframes pulseAndRotate {
 
     0%,
     100% {
         opacity: 1;
-        transform: scale(1);
+        transform: scale(1) rotate(-2deg);
     }
 
     50% {
         opacity: 0.6;
-        transform: scale(1.1);
+        transform: scale(1.2) rotate(2deg);
     }
 }
 
