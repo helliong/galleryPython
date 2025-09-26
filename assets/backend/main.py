@@ -27,4 +27,4 @@ if __name__ == "__main__":
     with open("tree.json", "w", encoding="utf-8") as f:
         json.dump(result, f, indent=4, ensure_ascii=False)
 
-    print("Дерево сохранено в tree.json")
+    print(" Дерево сохранено в tree.json")
