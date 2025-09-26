@@ -1,0 +1,38 @@
+{
+    "name": "img",
+    "type": "directory",
+    "children": [
+        {
+            "name": "181304-imac_pro-yabloko-apple_masvook_pro-3840x2160.jpg",
+            "type": "file"
+        },
+        {
+            "name": "first.jpg",
+            "type": "file"
+        },
+        {
+            "name": "Img2.0",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Img3.0",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "fourth.jpg",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "third.jpg",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "second.jpg",
+            "type": "file"
+        }
+    ]
+}
